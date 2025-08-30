@@ -1,5 +1,12 @@
 package org.example.demo.entity;
 
+import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.annotation.TableId;
+import com.baomidou.mybatisplus.annotation.TableName;
+import lombok.Data;
+
+import java.util.List;
+
 @Data
 @TableName("supplier")
 public class Supplier {
@@ -11,5 +18,5 @@ public class Supplier {
     private String address;
     private Integer status;
     // 关联的产品列表（用于接收参数，存储时通过外键关联）
-    private List<Product> products; 
+    private List<Product> products;
 }
