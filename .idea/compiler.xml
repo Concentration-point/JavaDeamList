@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="aop-domo" target="21" />
+      <module name="demo" target="21" />
+      <module name="spring-demo" target="21" />
+      <module name="thread-demo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
